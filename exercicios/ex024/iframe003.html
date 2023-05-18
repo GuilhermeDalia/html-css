@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae blanditiis tempora, esse sint natus ipsa, architecto harum ad, doloribus neque non impedit enim error! Fugit consectetur cum ea maxime sunt! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ducimus veritatis accusamus ipsum esse voluptatem, placeat minus aut, voluptate sapiente eos dicta dolorum assumenda et molestias ratione? Voluptatum, a facere.</p>
+
+    <ul>
+        <li><a href="paginas_extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas_extras/pag002.html" target="frame">Segunga página</a></li>
+        <li><a href="paginas_extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit atque delectus maiores cumque, quisquam suscipit, accusantium quos in doloribus temporibus, tenetur ipsa autem rerum molestiae nihil repellendus eaque molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident earum ducimus voluptatem eveniet architecto optio, sapiente laborum adipisci! Provident et eligendi asperiores iste ea officiis libero amet ullam aperiam. Aut.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit atque delectus maiores cumque, quisquam suscipit, accusantium quos in doloribus temporibus, tenetur ipsa autem rerum molestiae nihil repellendus eaque molestias.</p>" name="frame">
+        <p>Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, numquam aut? Incidunt voluptatum magnam sed veniam unde deserunt quam, impedit placeat vero provident ullam, dolor non sint aperiam labore vitae? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore impedit at adipisci quas maiores itaque vel, culpa quia iusto perspiciatis. Neque earum iste ad maiores animi ex quaerat rerum voluptas.</p>
+</body>
+</html>
