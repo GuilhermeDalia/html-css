@@ -53,21 +53,3 @@ iframe#tela{
     width: 267px;
     height: 471px;
 }
-footer{
-    background-color: rgb(176, 179, 20);
-    padding: 10px;
-}
-footer p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-footer a{
-    text-decoration: none;
-    color: black;
-}
-footer a:hover{
-    text-decoration: underline;
-    background-color: yellow;
-    border-radius: 5px;
-}
